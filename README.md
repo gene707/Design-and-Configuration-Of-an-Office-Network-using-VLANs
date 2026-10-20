@@ -485,6 +485,8 @@ VLANs improve office-network organization by grouping users according to departm
 | File | Purpose |
 | --- | --- |
 | `README.md` | Project documentation, configuration guide, verification answers, troubleshooting report, and conclusion. |
+| [`LINKEDIN_POST.md`](LINKEDIN_POST.md) | LinkedIn-ready post highlighting the project outcomes and repository. |
+| [`MEDIUM_BLOG.md`](MEDIUM_BLOG.md) | Medium-style technical blog describing the project design, implementation, packet flow, and lessons learned. |
 | [`Proof of Concept/`](Proof%20of%20Concept/) | Submitted Packet Tracer project file and supporting configuration/topology screenshots. |
 | [`Proof of Concept/Office_VLAN_Routing_Project.pkt`](Proof%20of%20Concept/Office_VLAN_Routing_Project.pkt) | Completed Cisco Packet Tracer project file. |
 
