@@ -368,13 +368,16 @@ Then test one same-VLAN ping and one inter-VLAN ping.
 
 ### Answers
 
-1. **Can two PCs in the same VLAN still communicate?**  
+1. **Can two PCs in the same VLAN still communicate?**
+
    **Yes.** Same-VLAN devices can communicate at Layer 2 through the switches and the switch-to-switch trunk, so the router is not required for that traffic.
 
-2. **Can a PC in VLAN 10 communicate with a PC in VLAN 20?**  
+2. **Can a PC in VLAN 10 communicate with a PC in VLAN 20?**
+
    **No.** VLAN 10 and VLAN 20 are separate Layer 2 broadcast domains and IP subnets. Their traffic needs a Layer 3 device to route between them.
 
-3. **Why does router availability affect different-VLAN communication but not same-VLAN communication?**  
+3. **Why does router availability affect different-VLAN communication but not same-VLAN communication?**
+
    Hosts in the same VLAN use local Ethernet switching after resolving the destination MAC address. For a remote subnet, a host sends the frame to its default gateway. The router receives the packet on one VLAN subinterface and routes it out through another VLAN subinterface. With the router link down, this gateway path is unavailable.
 
 Restore the router trunk when finished:
