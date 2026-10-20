@@ -485,7 +485,32 @@ VLANs improve office-network organization by grouping users according to departm
 | File | Purpose |
 | --- | --- |
 | `README.md` | Project documentation, configuration guide, verification answers, troubleshooting report, and conclusion. |
-| `StudentName_VLAN_Routing_Project.pkt` | Add your completed Packet Tracer file here before final submission. |
+| [`Proof of Concept/`](Proof%20of%20Concept/) | Submitted Packet Tracer project file and supporting configuration/topology screenshots. |
+| [`Proof of Concept/Office_VLAN_Routing_Project.pkt`](Proof%20of%20Concept/Office_VLAN_Routing_Project.pkt) | Completed Cisco Packet Tracer project file. |
+
+## Proof of Concept
+
+The following artifacts provide visual evidence of the configured office VLAN network.
+
+### Network topology
+
+![Configured office VLAN topology](Proof%20of%20Concept/02-network-topology.png)
+
+### VLAN configuration on the switch
+
+![Switch VLAN configuration](Proof%20of%20Concept/01-switch-vlan-configuration.png)
+
+### Finance PC IP configuration
+
+![Finance PC static addressing](Proof%20of%20Concept/03-finance-pc-ip-configuration.png)
+
+### Saved switch configuration
+
+![Switch configuration saved](Proof%20of%20Concept/04-switch-configuration-saved.png)
+
+### Router trunk interface
+
+![Router trunk interface details](Proof%20of%20Concept/05-router-trunk-interface.png)
 
 ## License
 
